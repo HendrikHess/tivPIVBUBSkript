@@ -1,0 +1,9 @@
+rootProject.name = 'tivPIVBUBSkript'
+include ":openTIV"
+project(":openTIV").projectDir = file("C:\\NoAdmin\\TIVRepo\\openTIV")
+include ":tivGUI"
+project(":tivGUI").projectDir = file("C:\\NoAdmin\\TIVRepo\\tivGUI")
+include ":tivPIVBUB"
+project(":tivPIVBUB").projectDir = file("C:\\NoAdmin\\TIVRepo\\tivPIVBUB")
+include ":tivPIV"
+project(":tivPIV").projectDir = file("C:\\NoAdmin\\TIVRepo\\tivPIV")
